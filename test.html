@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="bg-primary text-white p-4">
+        <h1>Mon portfolio</h1>
+        <nav>
+            <ul class="d-flex">
+                <li class="mr-3"><a href="#accueil" class="text-white">Accueil</a></li>
+                <li class="mr-3"><a href="#projets" class="text-white">Projets</a></li>
+                <li class="mr-3"><a href="#competences" class="text-white">Compétences</a></li>
+                <li class="mr-3"><a href="#diplomes" class="text-white">Diplômes</a></li>
+                <li><a href="#experiences-pro" class="text-white">Expériences professionnelles</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="p-4">
+        <section id="accueil">
+            <h2>Accueil</h2>
+            <p>Bienvenue sur mon portfolio ! Je m'appelle Laxhan Pushpakumar, j'étudie actuellement en 2ème année de <a
+                    href="https://formations.univ-gustave-eiffel.fr/index.php?id=1941&tx_agof_brochure%5Bbrochure%5D=1042&tx_agof_brochure%5Baction%5D=show&tx_agof_brochure%5Bcontroller%5D=Brochure&cHash=1205d8dc21da04591a409d2aee31fb2e">BUT
+                    Informatique : réalisation d'applications</a> à l'IUT de Gustave Eiffel.
+                Je suis en recherche de stage pour ma 2ème année du BUT qui debutera fin avril, et une durée minimum de 9 semaines.
+                Ici, vous pouvez découvrir mes projets et mes compétences ! </p>
+        </section>
+        <section id="projets">
+            <div class="p-3">
+                <h2><i class="fa-sharp fa-solid fa-code"></i> Projets</h2>
+                <div class="projet-container">
+                    <div class="projet">
+                        <h3>SushiFast</h3>
+                        <p>Une application web créée avec Angular, qui permet d'afficher une liste de plateau et
+                            d'ajouter
+                            des
+                            plateaux dans un panier, comme une plateforme de vente en ligne mais en local.</p>
+                        <a href="https://github.com/LaxhP/SushiFast">Voir le projet</a>
+                    </div>
+                    <div class="projet">
+                        <h3>Vetux-Line</h3>
+                        <p>Vetux-Line est une application Back-End créée avec Symfony. Elle permet de fusionner 2
+                            fichier
+                            CSV (avec
+                            des colonnes prédéfini). Il y a également une gestion des rôles et des privilèges pour
+                            accéder à
+                            l'application.</p>
+                        <a href="https://github.com/LaxhP/Vetux-Line">Voir le projet</a>
+                    </div>
+                    <div class="projet">
+                        <h3>Transfert num </h3>
+                        <p>Programme développé en PHP durant un stage et qui utilise l'API d'Ypareo(REST). Une
+                            modification
+                            de
+                            structure de fichier a fait que des fiches de prospects importés sur Ypareo avaient leur
+                            numéro
+                            de
+                            téléphone portable dans la case des téléphone fixe. Le programme résout ce problème en
+                            modifiant
+                            les
+                            fiches des prospects.</p>
+                        <a href="https://github.com/LaxhP/update_tel">Voir le projet</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences">
+
+            <h2><i class="fa-sharp fa-solid fa-gear"></i> Compétences techniques</h2>
+            <div class="competences-container ">
+                <div class="competence">
+
+                    <h3>Languages de programmation</h3>
+                    <ul>
+                        <li><i class="fab fa-php"></i> PHP
+                            <div class="progress-container">
+                                <span class="progress-value">90%</span>
+                                <progress value="90" max="100"></progress>
+                            </div>
+                        </li>
+                        <li><i class="fab fa-java"></i> Java
+                            <div class="progress-container">
+                                <span class="progress-value">85%</span>
+                                <progress value="80" max="100"></progress>
+                            </div>
+                        </li>
+                        <li><i class="fab fa-python"></i> Python
+                            <div class="progress-container">
+                                <span class="progress-value">70%</span>
+                                <progress value="70" max="100"></progress>
+                            </div>
+                        </li>
+                        <li><i class="fab fa-c"></i> C
+                            <div class="progress-container">
+                                <span class="progress-value">60%</span>
+                                <progress value="60" max="100"></progress>
+                            </div>
+                        </li>
+                        <li><i class="fab fa-js"></i> Javascript/TypeScript
+                            <div class="progress-container">
+                                <span class="progress-value">80%</span>
+                                <progress value="80" max="100"></progress>
+                            </div>
+                        </li>
+                        <li><i class="fab fa-html5"></i> HTML/CSS</li>
+                        <div class="progress-container">
+                            <span class="progress-value">80%</span>
+                            <progress value="80" max="100"></progress>
+                        </div>
+                        <li><i class="fab fa-r-project"></i> R
+                            <div class="progress-container">
+                                <span class="progress-value">60%</span>
+                                <progress value="60" max="100"></progress>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+                <div class="competence">
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li><i class="fab fa-symfony"></i> Symfony
+                            <div class="progress-container">
+                                <span class="progress-value">90%</span>
+                                <progress value="90" max="100"></progress>
+                            </div>
+                        </li>
+                        <li><i class="fab fa-angular"></i> Angular
+                            <div class="progress-container">
+                                <span class="progress-value">90%</span>
+                                <progress value="90" max="100"></progress>
+                            </div>
+                        </li>
+                        <li><i class="fab fa-node-js"></i> NodeJS
+                            <div class="progress-container">
+                                <span class="progress-value">70%</span>
+                                <progress value="70" max="100"></progress>
+                            </div>
+                        </li>
+                    </ul>
+                    <h3>Bases de données</h3>
+                    <ul>
+                        <li><i class="fas fa-database"></i> MySQL</li>
+                        <div class="progress-container">
+                            <span class="progress-value">85%</span>
+                            <progress value="85" max="100"></progress>
+                        </div>
+                        <li><i class="fas fa-database"></i> MSSQL</li>
+                        <div class="progress-container">
+                            <span class="progress-value">85%</span>
+                            <progress value="85" max="100"></progress>
+                        </div>
+                        <li><i class="fas fa-database"></i> MongoDB</li>
+                        <div class="progress-container">
+                            <span class="progress-value">90%</span>
+                            <progress value="90" max="100"></progress>
+                        </div>
+                    </ul>
+                    
+                    <!-- <img src="img2.jpg" alt="Illustration" class="rounded " max-width="auto" height="200px"> -->
+                </div>
+                <!--<div class="competence">
+                    <h3>Bases de données</h3>
+                    <ul>
+                        <li><i class="fas fa-database"></i> MySQL</li>
+                        <div class="progress-container">
+                            <span class="progress-value">85%</span>
+                            <progress value="85" max="100"></progress>
+                        </div>
+                        <li><i class="fas fa-database"></i> MSSQL</li>
+                        <div class="progress-container">
+                            <span class="progress-value">85%</span>
+                            <progress value="85" max="100"></progress>
+                        </div>
+                        <li><i class="fas fa-database"></i> MongoDB</li>
+                        <div class="progress-container">
+                            <span class="progress-value">90%</span>
+                            <progress value="90" max="100"></progress>
+                        </div>
+                    </ul>
+                </div>-->
+            </div>
+
+        </section>
+
+
+        <section id="competence-academique" class="d-flex flex-column">
+            <h2><i class="fa-sharp fa-solid fa-gear"></i> Compétences académiques</h2>
+          
+            <div class="d-flex flex-row">
+              <div class="decorative-element col-md-3">
+                <img src="img1.jpg" alt="Illustration" class="img-fluid rounded" height="100%">
+              </div>
+          
+              <div class="col-md-6 text-left pl-5">
+                <ul>
+                  <li>Travailler en mode projet</li>
+                  <li>Concevoir et développer une solution applicative</li>
+                  <li>Exploiter les ressources du cadre applicatif (framework)</li>
+                  <li>Concevoir ou adapter une base de données</li>
+                  <li>Gérer les données</li>
+                  <li>Assurer la cybersécurité d'une solution applicative et de son développement</li>
+                  <li>Protéger les données à caractère personnel</li>
+                  <li>Gérer les accès et les privilèges appropriés</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          
+        <section id="diplomes">
+            <div class="pl-3">
+                <h2><i class="fa-sharp fa-solid fa-graduation-cap"></i>Diplômes</h2>
+                <ul>
+                    <li>Baccalauréat Général Scientifiques avec la spécialité Informatique et Sciences du Numériques
+                    </li>
+                    <li>BTS Services Informatiques aux Organisations option Solutions Logicielles et Applications
+                        Métiers (SLAM) : 
+                    </br>Ce BTS m'a permis d'acquérir diverse compétences, notamment en développement informatique et gestion de bases de données. Mais j'ai aussi des connaissances en réseaux, sécurité informatique et gestion de projet.
+                        Nous avons également réalisé plusieurs projets en groupe, ce qui m'a permis d'améliorer mes compétences en travail d'équipe et en communication.
+                         </li>
+
+                    <li>(en cours) BUT Informatique : réalisation d'applications</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section id="experiences-pro">
+            <div class="pl-3">
+                <h2><i class="fa-sharp fa-solid fa-briefcase"></i>Expériences professionnelles</h2>
+                <div class="pr-5">
+                <ul>
+                    <li> -Equipier polyvalents chez Quick: 
+                    </br> Mes missions consistaient à préparer des sandwichs et à cuire les viandes. Je devais respecter les normes de sécurité alimentaire et de la propreté de la cuisine. 
+                </br>J'ai également appris à travailler en équipe et à gérer la pression.
+                    </li>
+                    <p> 
+                    </p>
+                    <li>-Stage développeur informatique: 
+                    </br> Durant mes stages, j'ai développé plusieurs programmes en Java et PHP, permettant de créer et de modifier des utilisateurs sur application
+                    à partir d'une autre application grâce à une API(REST).
+                    </br>J'ai créer un application Symfony qui permet de inscrire ou modifier des données dans une base de données. J'ai du mettre en place un serveur MSSQL local pour tester mon application.
+                </li>
+            </ul>
+            </div>
+        </section>
+
+        <section id="cv-section">
+            <h2><i class="fa-sharp fa-solid fa-eye"></i><a href="CV_Laxhan.pdf" target="_blank"> Voir mon CV</a></h2>
+            </div>
+        </section>
+    </main>
+
+    <!-- Ajoutez Bootstrap JS si nécessaire -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</div>
+</body>
+
+</html>
